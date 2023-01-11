@@ -3,9 +3,13 @@
 ### Basic  Usage
 1. Download the script file
 2. Insert the script before `body` ends
-	`<script src="main.js"></script>` 
+
+	`<script src="main.js"></script>`
+
 	or
+
 	Insert our CDN
+	
 	`<script src="https://cdn.jsdelivr.net/gh/cjcoaustralia/event-automation/dist/main.js"></script>`
 	
 	EventAutomation can be called without function call, it will be implemented automatically all elements with `data-automation` attributes by the default.

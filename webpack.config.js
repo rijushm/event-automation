@@ -13,7 +13,7 @@ module.exports = {
         filename: '[name].js',
         chunkFilename: '[id].js',
         libraryTarget: 'var',
-        library: 'cjco'
+        library: 'cjcoevent'
     },
     module: {
         rules: [

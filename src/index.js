@@ -48,6 +48,7 @@ const eventAutomation = () =>{
                 let isEvent = dayjs(currentFormat).isBetween(startFormat, endFormat)
 
                 if(!isEvent){
+                    el.classList.add('cjco-auto-disabled');
                     el.remove();
                 }
             })
